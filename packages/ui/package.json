@@ -1,0 +1,32 @@
+{
+  "name": "@meu-org/ui",
+  "version": "1.0.0",
+  "sideEffects": false,
+  "types": "./types/index.d.ts",
+  "main": "dist/cjs",
+  "module": "dist/esm",
+  "module:jsx": "dist/jsx",
+  "files": [
+    "types",
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tamagui-build",
+    "watch": "tamagui-build --watch"
+  },
+  "dependencies": {
+    "@tamagui/core": "^1.94.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "tamagui": "^1.94.3"
+  },
+  "devDependencies": {
+    "@tamagui/build": "^1.94.3",
+    "react": "*",
+    "react-native": "*",
+    "tamagui": "^1.94.3"
+  }
+}

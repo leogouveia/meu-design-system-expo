@@ -1,0 +1,9 @@
+{
+  "name": "@meu-org/config",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@tamagui/config": "^1.94.3",
+    "tamagui": "^1.94.3"
+  }
+}

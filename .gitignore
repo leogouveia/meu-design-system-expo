@@ -11,3 +11,72 @@
 
 #!.yarn/cache
 .pnp.*
+# Arquivos de log
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diretórios de dependências
+node_modules/
+jspm_packages/
+
+# Saídas de build do Tamagui e TypeScript
+.tamagui/
+dist/
+types/
+build/
+
+# Configurações de editores de código
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+
+# Arquivos de sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Arquivos de cache e temporários
+*.tsbuildinfo
+
+# Arquivos específicos do Expo
+.expo/
+.expo-shared/
+web-build/
+
+# Arquivos específicos do Next.js
+.next/
+out/
+
+# Arquivos de cache do Yarn Berry (se usado no futuro)
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Chaves e segredos locais
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.keystore
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+

@@ -1,4 +1,13 @@
 {
-  "name": "meu-design-system-expo",
-  "packageManager": "yarn@4.6.0"
+  "name": "meu-design-system-expo-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "yarn --cwd apps/mobile start",
+    "build": "yarn --cwd packages/ui build"
+  },
+  "packageManager": "yarn@1.22.19"
 }
